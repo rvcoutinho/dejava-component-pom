@@ -16,25 +16,33 @@
 	<name>POM</name>
 
 	<distributionManagement>
-  
-        <repository>
-            <id>dejava-nexus</id>
-            <name>Repositório de Releases</name>
-            <url>http://asset.dejava.org:8081/nexus/content/repositories/releases/</url>
-        </repository>
-  
-        <snapshotRepository>
-            <id>dejava-nexus</id>
-            <name>Repositório de Snapshots</name>
-            <url>http://asset.dejava.org:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-  
-    </distributionManagement>
+
+		<repository>
+			<id>dejava-nexus</id>
+			<name>Repositório de Releases</name>
+			<url>http://asset.dejava.org:8081/nexus/content/repositories/releases/</url>
+		</repository>
+
+		<snapshotRepository>
+			<id>dejava-nexus</id>
+			<name>Repositório de Snapshots</name>
+			<url>http://asset.dejava.org:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+
+	</distributionManagement>
 
 	<repositories>
 		<repository>
-			<id>dejava-component-releases</id>
+			<id>dejava-component-releasess</id>
 			<url>https://github.com/rvcoutinho/dejava-component-maven/raw/master/releases</url>
+		</repository>
+		<repository>
+			<id>dejava-component-releases</id>
+			<url>asset.dejava.org:8081/nexus/content/repositories/releases</url>
+		</repository>
+		<repository>
+			<id>dejava-component-snapshots</id>
+			<url>asset.dejava.org:8081/nexus/content/repositories/snapshots</url>
 		</repository>
 	</repositories>
 

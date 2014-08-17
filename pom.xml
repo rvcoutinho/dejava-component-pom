@@ -25,12 +25,13 @@
 	<distributionManagement>
 
 		<repository>
-			<id>dejava-releases</id>
+			<id>dejava-nexus</id>
 			<name>Repositório de Releases</name>
 			<url>http://asset.dejava.org:8081/nexus/content/repositories/releases/</url>
 		</repository>
+
 		<snapshotRepository>
-			<id>dejava-snapshots</id>
+			<id>dejava-nexus</id>
 			<name>Repositório de Snapshots</name>
 			<url>http://asset.dejava.org:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>

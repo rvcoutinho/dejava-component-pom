@@ -25,13 +25,12 @@
 	<distributionManagement>
 
 		<repository>
-			<id>dejava-nexus</id>
+			<id>dejava-releases</id>
 			<name>Repositório de Releases</name>
 			<url>http://asset.dejava.org:8081/nexus/content/repositories/releases/</url>
 		</repository>
-
 		<snapshotRepository>
-			<id>dejava-nexus</id>
+			<id>dejava-snapshots</id>
 			<name>Repositório de Snapshots</name>
 			<url>http://asset.dejava.org:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
@@ -44,11 +43,11 @@
 			<url>https://github.com/rvcoutinho/dejava-component-maven/raw/master/releases</url>
 		</repository>
 		<repository>
-			<id>dejava-component-releases</id>
+			<id>dejava-releases</id>
 			<url>asset.dejava.org:8081/nexus/content/repositories/releases</url>
 		</repository>
 		<repository>
-			<id>dejava-component-snapshots</id>
+			<id>dejava-snapshots</id>
 			<url>asset.dejava.org:8081/nexus/content/repositories/snapshots</url>
 		</repository>
 	</repositories>

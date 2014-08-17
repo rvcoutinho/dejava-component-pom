@@ -15,6 +15,12 @@
 
 	<name>POM</name>
 
+	<scm>
+		<connection>scm:git:git@github.com:rvcoutinho/dejava-component-pom.git</connection>
+		<url>scm:git:git@github.com:rvcoutinho/dejava-component-pom.git</url>
+		<developerConnection>scm:git:git@github.com:rvcoutinho/dejava-component-pom.git</developerConnection>
+	</scm>
+
 	<distributionManagement>
 
 		<repository>

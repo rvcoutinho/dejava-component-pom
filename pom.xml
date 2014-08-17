@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<properties>
-		<build.number>0.0.1</build.number>
+		<build.number>1.0.0-SNAPSHOT</build.number>
 	</properties>
 
 	<groupId>org.dejava.component</groupId>
